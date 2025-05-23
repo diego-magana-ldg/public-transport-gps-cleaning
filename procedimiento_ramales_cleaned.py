@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Ramal Filtering Tool for GPS Data — Developed for SEMOVI
+Filtering Tool for GPS Data — Developed for SEMOVI
 Author: Diego Magaña
 Date: April 2024
 """
@@ -8,7 +8,7 @@ Date: April 2024
 import pandas as pd
 
 # Load CSV file into a DataFrame
-df = pd.read_csv('ruta_3_marzo.csv')  # Replace with your local path if needed
+df = pd.read_csv('ruta_3_marzo.csv')
 
 # Get total number of columns and their names
 total_columns = len(df.columns)
